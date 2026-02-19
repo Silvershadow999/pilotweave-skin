@@ -1,4 +1,9 @@
-numpy>=1.26.0
-matplotlib>=3.8.0
-pandas>=2.2.0
-scipy>=1.13.0
+# Core scientific computing & visualization
+numpy>=1.26.4
+scipy>=1.13.1
+matplotlib>=3.8.4
+pandas>=2.2.2
+
+# Optional / nice-to-have (für Reports, JSON-Handling, Fortschritt)
+tqdm>=4.66.5          # Fortschrittsbalken bei langen Runs
+pyyaml>=6.0.2         # Für YAML-Konfigs (später vielleicht)
